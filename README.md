@@ -46,11 +46,11 @@
 
 > 每天 get 一个知识点
 
-### Day216:说一下 escape、encodeURI、encodeURIComponent 有什么区别？具体的使用场景？
+### Day244:虚拟列表是什么？说一下它的实现原理？
 
-公司：水滴筹
+公司：快手
 
-**[答案&解析](https://github.com/lgwebdream/FE-Interview-Planet/issues/1035)**
+**[答案&解析](https://github.com/lgwebdream/FE-Interview-Planet/issues/1063)**
 
 <br />
 
@@ -69,21 +69,24 @@
 
 ## ⏱️ 最近更新
 
-- [### Day215 下面代码的输出是什么？为什么？](https://github.com/lgwebdream/FE-Interview-Planet/issues/1034)
-- [### Day214:写出下面代码的输出结果，并解释为什么？](https://github.com/lgwebdream/FE-Interview-Planet/issues/1033)
-- [### Day213:如何封装一个 localStorage，保证数据的时效性?](https://github.com/lgwebdream/FE-Interview-Planet/issues/1032)
-- [### Day212:说下对 AST（Abstract Syntax Tree）抽象语法树的理解？都有哪些用途？](https://github.com/lgwebdream/FE-Interview-Planet/issues/1031)
-- [### Day211:有没有写过 Koa 中间件，说下中间件原理，介绍下自己写过的中间件](https://github.com/lgwebdream/FE-Interview-Planet/issues/1029)
-- [### Day210:项目中有没有涉及到 Cluster，说一下你的理解](https://github.com/lgwebdream/FE-Interview-Planet/issues/1028)
-- [### Day209:介绍一下 node 核心模块，并且详细介绍下 Stream](https://github.com/lgwebdream/FE-Interview-Planet/issues/1027)
-- [### Day208:模拟实现 Object.freeze](https://github.com/lgwebdream/FE-Interview-Planet/issues/1026)
-- [### Day207:说一下 OAuth2.0 的登录详细流程](https://github.com/lgwebdream/FE-Interview-Planet/issues/1025)
-- [Day206:秒 转换为 时分秒格式，不能使用 js API](https://github.com/lgwebdream/FE-Interview-Planet/issues/1024)
-- [Day205:这里有个约定规则，实现一个方法 decodeStr，输入一个字符串，根据约定规则输出编码结果。约定规则如下：](https://github.com/lgwebdream/FE-Interview-Planet/issues/1023)
-- [Day204:说一下 Vue3 的 Composition API](https://github.com/lgwebdream/FE-Interview-Planet/issues/1021)
-- [Day203:Vue-router history 模式部署的时候要注意什么？server 端用 nginx 和 node 时候分别怎么处理？](https://github.com/lgwebdream/FE-Interview-Planet/issues/1020)
-- [Day202:说下 v8 引擎解释执行 js 代码的大致流程](https://github.com/lgwebdream/FE-Interview-Planet/issues/1019)
-- [Day201:说一下从获得 HTML 到页面渲染的全部流程？为什么栅格线程使用 GPU 计算而不是 CPU 计算？](https://github.com/lgwebdream/FE-Interview-Planet/issues/1018)
+- [Day243:WebWorker 的缺点是什么？在 worker 线程怎么获取主线程上下文？解决卡顿的问题除了使用 WebWorker 还有其他的解决方案吗？](https://github.com/lgwebdream/FE-Interview-Planet/issues/1062)
+- [Day242:实现一个函数 findLastIndex(), 返回指定数在“有序”数组中最后一次出现位置的索引。如 `findLastIndex([1,2,3,3,3,4,5], 3)`, 返回 4。时间复杂度是多少？什么情况下时间复杂度最高？](https://github.com/lgwebdream/FE-Interview-Planet/issues/1061)
+- [Day241:说一下深拷贝如何解决循环引用问题？](https://github.com/lgwebdream/FE-Interview-Planet/issues/1060)
+- [Day240:写出输出值并解释为什么？](https://github.com/lgwebdream/FE-Interview-Planet/issues/1059)
+- [Day239:按要求实现 go 函数](https://github.com/lgwebdream/FE-Interview-Planet/issues/1058)
+- [Day238:请介绍一下装饰者模式，并实现](https://github.com/lgwebdream/FE-Interview-Planet/issues/1057)
+- [Day237:说一下什么是运营商劫持？有什么预防措施？](https://github.com/lgwebdream/FE-Interview-Planet/issues/1056)
+- [Day236:了解 HTTP3.0 吗？简要说一下 HTTP 的一个发展历程？](https://github.com/lgwebdream/FE-Interview-Planet/issues/1055)
+- [Day235:动手实现一下数组 Reduce 方法的 polyfill](https://github.com/lgwebdream/FE-Interview-Planet/issues/1054)
+- [Day234:Vue-cli 默认是单页面的，如果要开发多页面应该怎么办？](https://github.com/lgwebdream/FE-Interview-Planet/issues/1053)
+- [Day233:Vuex 的 action 和 mutation 的特性是什么？有什么区别？Vuex 怎么知道 state 是通过 mutation 修改还是外部直接修改的？](https://github.com/lgwebdream/FE-Interview-Planet/issues/1052)
+- [Day232:详细说一下 JSON.stringify 的一些特性？和遍历相比，哪个性能高?](https://github.com/lgwebdream/FE-Interview-Planet/issues/1051)
+- [Day231:说下你的 vue 项目目录结构，如果是大型项目你该怎么划分结构和划分组件呢？](https://github.com/lgwebdream/FE-Interview-Planet/issues/1050)
+- [Day230:说一下 Vue 开发如何针对搜索引擎做 SEO 优化](https://github.com/lgwebdream/FE-Interview-Planet/issues/1049)
+- [Day229:说一下网页扫码登录的原理](https://github.com/lgwebdream/FE-Interview-Planet/issues/1048)
+- [Day228:Token 一般是存放在哪里?Token 放在 cookie 和放在 localStorage、sessionStorage 中有什么不同？](https://github.com/lgwebdream/FE-Interview-Planet/issues/1047)
+- [Day227:Webpack 如果使用了 hash 命名，是否每次都会重新生成 hash?简单说下 Webpack 的几种 hash 策略？](https://github.com/lgwebdream/FE-Interview-Planet/issues/1046)
+- [Day226:用 reduce 实现 map 方法](https://github.com/lgwebdream/FE-Interview-Planet/issues/1045)
 
 ## 🏠 前端面试 Family
 

@@ -3002,3 +3002,290 @@ console.log(Object.keys(person));
 [答案&解析](https://github.com/lgwebdream/FE-Interview-Planet/issues/1035)
 
 <br />
+
+### Day217:写出下面代码输出结果，并解释为什么？
+
+```js
+const value = { number: 10 };
+let number = 2;
+const multiply = (x = { ...value }, y = number) => {
+  y++;
+  console.log((x.number *= y));
+};
+
+multiply();
+multiply();
+multiply(value, number);
+multiply(value, number);
+```
+
+[答案&解析](https://github.com/lgwebdream/FE-Interview-Planet/issues/1036)
+
+<br />
+
+### Day218:说下下面两段代码执行情况
+
+```js
+// 代码片段一：是否存在堆栈溢出错误?
+function foo() {
+  setTimeout(foo, 0);
+}
+foo();
+
+// 代码片段二:如果在控制台中运行以下函数，页面(选项卡)的 UI 是否仍然响应?
+function foo() {
+  return Promise.resolve().then(foo);
+}
+```
+
+
+[答案&解析](https://github.com/lgwebdream/FE-Interview-Planet/issues/1037)
+
+<br />
+
+### Day219:说下 prototype 和 `__proto__`的关系
+
+分类：JavaScript
+
+
+[答案&解析](https://github.com/lgwebdream/FE-Interview-Planet/issues/1038)
+
+<br />
+
+### Day220:了解函数式编程中的 compose 吗？动手实现一下？
+
+分类：JavaScript
+
+[答案&解析](https://github.com/lgwebdream/FE-Interview-Planet/issues/1039)
+
+<br />
+
+### Day221:说下 Webpack Runtime 和 Manifest 代码的作用？
+
+分类：工程化
+
+[答案&解析](https://github.com/lgwebdream/FE-Interview-Planet/issues/1040)
+
+<br />
+
+### Day222:说一下 ES6 对 Object 类型做了哪些优化更新?
+
+分类：JavaScript
+
+[答案&解析](https://github.com/lgwebdream/FE-Interview-Planet/issues/1041)
+
+<br />
+
+### Day223:使用队列来实现击鼓传花
+
+```js
+击鼓传花的规则:
+
+几个朋友一起玩一个游戏, 围成一圈, 开始数数（数数时数字都是挨着的，第一个人数1，之后的人数2）, 数到某个数字的人自动淘汰。汰的人后面再从1开始数，重复上面的游戏，直到就剩下一个人，请问剩下了谁
+
+// 测试例子
+var names = ["John", "Jack", "Camila", "Ingrid", "Carl"];
+var endName = passGame(names, 8); // 数到 8 的人淘汰
+console.log("最终留下:" + endName); // 'john'
+```
+
+分类：算法
+
+[答案&解析](https://github.com/lgwebdream/FE-Interview-Planet/issues/1042)
+
+<br />
+
+### Day224:多种方式实现圆形可点击区域(至少三种)
+
+分类：JavaScript
+
+[答案&解析](https://github.com/lgwebdream/FE-Interview-Planet/issues/1043)
+
+<br />
+
+### Day225:介绍 instanceof 原理并实现
+
+分类：JavaScript
+
+[答案&解析](https://github.com/lgwebdream/FE-Interview-Planet/issues/1044)
+
+<br />
+
+### Day226:用 reduce 实现 map 方法
+
+分类：JavaScript
+
+[答案&解析](https://github.com/lgwebdream/FE-Interview-Planet/issues/1045)
+
+<br />
+
+### Day227:Webpack 如果使用了 hash 命名，是否每次都会重新生成 hash?简单说下 Webpack 的几种 hash 策略？
+
+分类：工程化
+
+[答案&解析](https://github.com/lgwebdream/FE-Interview-Planet/issues/1046)
+
+<br />
+
+### Day228:Token 一般是存放在哪里?Token 放在 cookie 和放在 localStorage、sessionStorage 中有什么不同？
+
+分类：网络&安全
+
+[答案&解析](https://github.com/lgwebdream/FE-Interview-Planet/issues/1047)
+
+<br />
+
+### Day229:说一下网页扫码登录的原理
+
+分类：其它
+
+[答案&解析](https://github.com/lgwebdream/FE-Interview-Planet/issues/1048)
+
+<br />
+
+### Day230:说一下 Vue 开发如何针对搜索引擎做 SEO 优化
+
+分类：Vue
+
+[答案&解析](https://github.com/lgwebdream/FE-Interview-Planet/issues/1049)
+
+<br />
+
+### Day231:说下你的 vue 项目目录结构，如果是大型项目你该怎么划分结构和划分组件呢？
+
+分类：工程化
+
+[答案&解析](https://github.com/lgwebdream/FE-Interview-Planet/issues/1050)
+
+<br />
+
+### Day232:详细说一下 JSON.stringify 的一些特性？和遍历相比，哪个性能高?
+
+分类：JavaScript
+
+[答案&解析](https://github.com/lgwebdream/FE-Interview-Planet/issues/1051)
+
+<br />
+
+### Day233:Vuex 的 action 和 mutation 的特性是什么？有什么区别？Vuex 怎么知道 state 是通过 mutation 修改还是外部直接修改的？
+
+分类：Vue
+
+[答案&解析](https://github.com/lgwebdream/FE-Interview-Planet/issues/1052)
+
+<br />
+
+### Day234:Vue-cli 默认是单页面的，如果要开发多页面应该怎么办？
+
+分类：Vue
+
+[答案&解析](https://github.com/lgwebdream/FE-Interview-Planet/issues/1053)
+
+<br />
+
+### Day235:动手实现一下数组 Reduce 方法的 polyfill
+
+分类：JavaScript
+
+[答案&解析](https://github.com/lgwebdream/FE-Interview-Planet/issues/1054)
+
+<br />
+
+
+### Day236:了解 HTTP3.0 吗？简要说一下 HTTP 的一个发展历程？
+
+分类：网络&安全
+
+[答案&解析](https://github.com/lgwebdream/FE-Interview-Planet/issues/1055)
+
+<br />
+
+### Day237:说一下什么是运营商劫持？有什么预防措施？
+
+分类：网络&安全
+
+[答案&解析](https://github.com/lgwebdream/FE-Interview-Planet/issues/1056)
+
+<br />
+
+### Day238:请介绍一下装饰者模式，并实现
+
+分类：JavaScript
+
+[答案&解析](https://github.com/lgwebdream/FE-Interview-Planet/issues/1057)
+
+<br />
+
+### Day239:按要求实现 go 函数
+
+```js
+// 示例
+go("l"); //gol
+go()("l"); //gool
+go()()()("l"); //返回goool
+```
+
+分类：JavaScript
+
+公司：深信服
+
+[答案&解析](https://github.com/lgwebdream/FE-Interview-Planet/issues/1058)
+
+<br />
+
+### Day240:写出输出值并解释为什么？
+
+```js
+let a = 1,
+  b = 2,
+  head = { next: { next: 1 } };
+[a, b] = [b, a];
+[head.next, head.next.next] = [head.next.next, head.next];
+console.log(a, b, head);
+```
+
+分类：JavaScript
+
+[答案&解析](https://github.com/lgwebdream/FE-Interview-Planet/issues/1059)
+
+<br />
+
+### Day241:说一下深拷贝如何解决循环引用问题？
+
+公司：极光推送
+
+分类：JavaScript
+
+[答案&解析](https://github.com/lgwebdream/FE-Interview-Planet/issues/1060)
+
+<br />
+
+### Day242:实现一个函数 findLastIndex(), 返回指定数在“有序”数组中最后一次出现位置的索引。如 `findLastIndex([1,2,3,3,3,4,5], 3)`, 返回 4。时间复杂度是多少？什么情况下时间复杂度最高？
+
+公司：快手
+
+分类：算法
+
+[答案&解析](https://github.com/lgwebdream/FE-Interview-Planet/issues/1061)
+
+<br />
+
+### Day243:WebWorker 的缺点是什么？在 worker 线程怎么获取主线程上下文？解决卡顿的问题除了使用 WebWorker 还有其他的解决方案吗？
+
+公司：快手
+
+分类：JavaScript
+
+[答案&解析](https://github.com/lgwebdream/FE-Interview-Planet/issues/1062)
+
+<br />
+
+### Day244:虚拟列表是什么？说一下它的实现原理？
+
+公司：快手
+
+分类：JavaScript
+
+[答案&解析](https://github.com/lgwebdream/FE-Interview-Planet/issues/1063)
+
+<br />
